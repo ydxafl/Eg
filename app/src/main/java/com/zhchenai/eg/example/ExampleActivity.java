@@ -10,7 +10,7 @@ import com.zhchenai.eg.R;
 import com.zhchenai.eg.base.BaseActivity;
 
 
-public class ExampleActivity extends BaseActivity implements ExampleContact.MVPView {
+public class ExampleActivity extends BaseActivity implements ExampleController.MVPView {
 
     private TextView tvShow;
 

@@ -3,7 +3,7 @@ package com.zhchenai.eg.example;
 import com.zhchenai.eg.base.BasePresenter;
 import com.zhchenai.eg.base.BaseView;
 
-public interface ExampleContact {
+public interface ExampleController {
 
     interface MVPView extends BaseView{
 

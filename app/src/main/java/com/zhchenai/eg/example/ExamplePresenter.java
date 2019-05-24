@@ -7,13 +7,13 @@ import com.zhchenai.eg.net.RetrofitApiFactory;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-public class ExamplePresenter implements ExampleContact.MVPPresenter {
+public class ExamplePresenter implements ExampleController.MVPPresenter {
 
-    ExampleContact.MVPView view;
+    ExampleController.MVPView view;
     private Context context;
 
 
-    public ExamplePresenter(ExampleContact.MVPView view,Context context){
+    public ExamplePresenter(ExampleController.MVPView view, Context context){
         this.context = context;
         this.view = view;
     }
