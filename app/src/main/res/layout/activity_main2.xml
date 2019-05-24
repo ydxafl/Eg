@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".example.ExampleActivity"
+        android:orientation="vertical">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_get"
+            android:text="请求"
+            tools:layout_editor_absoluteY="663dp"
+            tools:layout_editor_absoluteX="161dp"
+            tools:ignore="MissingConstraints"/>
+    
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="这里显示请求到的数据"
+            android:id="@+id/tv_show"/>
+
+    
+
+</LinearLayout>
